@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 {{CCGUIDE_PATH}}/src/stop_hook_handler.py",
+            "env": {
+              "PYTHONPATH": "{{CCGUIDE_PATH}}"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

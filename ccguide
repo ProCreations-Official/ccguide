@@ -1,0 +1,8 @@
+#!/bin/bash
+# CCGuide CLI wrapper script
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Execute the Python CLI with all arguments
+python3 "$SCRIPT_DIR/cli/ccguide_cli.py" "$@"
