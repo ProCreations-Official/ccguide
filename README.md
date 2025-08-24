@@ -123,7 +123,7 @@ Example hooks configuration:
   }
 }
 ```
-
+Or use the /hooks command, add a new Stop hook, and set the command to `python3 /your/path/to/ccguide/stop_hook_handler.py`
 ## 📋 How It Works
 
 ```mermaid
