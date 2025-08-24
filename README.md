@@ -128,7 +128,7 @@ Example hooks configuration:
 
 ```mermaid
 graph TD
-    A[Claude Code Session Ends] --> B[Stop Hook Triggered]
+    A[Claude Code Response Ends] --> B[Stop Hook Triggered]
     B --> C[CCGuide Analyzes Session]
     C --> D{Should Suggest?}
     D -->|No| E[Wait for Next Session]
